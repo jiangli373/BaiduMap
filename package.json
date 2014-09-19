@@ -1,6 +1,6 @@
 {
     "name": "baidumap",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "nodejs版百度地图服务sdk",
     "main": "index.js",
     "dependencies":{
@@ -9,9 +9,25 @@
     },
     "keywords": [
         "baidumap",
-        "node-baidumap"
+        "node-baidumap",
+        "百度地图sdk"
     ],
     "engines": {
         "node": ">= v0.10.26"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jiangli373/BaiduMap.git",
+        "web": "https://github.com/jiangli373/BaiduMap"
+    },
+    "bugs": {
+        "url": "https://github.com/jiangli373/BaiduMap/issues",
+        "email": "liminghaoze@qq.com"
+    },
+    "author": {
+        "name": "nuonuo",
+        "email": "liminghaoze@qq.com",
+        "url": "https://github.com/jiangli373"
+    },
+    "license": "MIT"
 }
