@@ -38,8 +38,49 @@ var bdmap = baiduMap.create({'ak':'W33OWk9gH40hXlGmUAek73qV'});
 //    }
 //});
 
-var eventdetailOption = {'uid':'c14fc238f7fadd4ea5da390f'};
-bdmap.eventdetail(eventdetailOption,function(err,reuslt){
+//var eventdetailOption = {'uid':'c14fc238f7fadd4ea5da390f'};
+//bdmap.eventdetail(eventdetailOption,function(err,reuslt){
+//    if(err){
+//        console.error('========',err);
+//    }
+//    if(reuslt){
+//        console.error('====result====',reuslt);
+//    }
+//});
+//var eventdetailOption = {'query':'天安门','region':131};
+//bdmap.suggestion(eventdetailOption,function(err,reuslt){
+//    if(err){
+//        console.error('========',err);
+//    }
+//    if(reuslt){
+//        console.error('====result====',reuslt);
+//    }
+//});
+
+//var geocoderOption = {'address':'天安门','city':'北京市','callback':'showMap'};
+//bdmap.geocoder(geocoderOption,function(err,reuslt){
+//    if(err){
+//        console.error('========',err);
+//    }
+//    if(reuslt){
+//        console.error('====result====',reuslt);
+//    }
+//});
+
+//var reverseGeocoderOption = {'location':'39.983424,116.322987','pois':1,'callback':'showMap'};
+//bdmap.reverseGeocoder(reverseGeocoderOption,function(err,reuslt){
+//    if(err){
+//        console.error('========',err);
+//    }
+//    if(reuslt){
+//        console.error('====result====',reuslt);
+//    }
+//});
+
+//http://api.map.baidu.com/direction/v1?mode=driving&origin=上地五街&destination=北京大学&origin_region
+//=北京&destination_region=北京&output=json&ak=E4805d16520de693a3fe707cdc962045
+var directionOption = {'origin':'上地五街','destination':'北京大学','origin_region':'北京','destination_region':'北京'};
+bdmap.direction(directionOption,function(err,reuslt){
     if(err){
         console.error('========',err);
     }
@@ -47,4 +88,3 @@ bdmap.eventdetail(eventdetailOption,function(err,reuslt){
         console.error('====result====',reuslt);
     }
 });
-
