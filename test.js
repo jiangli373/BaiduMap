@@ -3,13 +3,13 @@
  */
 
 
-var baidu = require('./index');
-var bb = baidu.create({'ak':'W33OWk9gH40hXlGmUAek73qV'});
+var baiduMap = require('./index');
+var bdmap = baiduMap.create({'ak':'W33OWk9gH40hXlGmUAek73qV'});
 
 //var options = {'query':'天安门','region':'北京'};
 //var options = {'query':'天安门','bounds':'39.915,116.404,39.975,116.414','page_size':1};
 //var options = {'query':'银行','location':'39.915,116.404','page_size':2,'radius':100};
-//bb.search(options,function(err,reuslt){
+//bdmap.search(options,function(err,reuslt){
 //    if(err){
 //        console.error('========',err);
 //    }
@@ -19,7 +19,7 @@ var bb = baidu.create({'ak':'W33OWk9gH40hXlGmUAek73qV'});
 //});
 
 //var detailOption = {'uid':'8ee4560cf91d160e6cc02cd7'};
-//bb.detail(detailOption,function(err,reuslt){
+//bdmap.detail(detailOption,function(err,reuslt){
 //    if(err){
 //        console.error('========',err);
 //    }
@@ -29,7 +29,7 @@ var bb = baidu.create({'ak':'W33OWk9gH40hXlGmUAek73qV'});
 //});
 
 //var eventsearchOption = {'query':'美食','event':'groupon','region':131,'bounds':'39.915,116.404,39.935,116.435','page_size':1};
-//bb.eventsearch(eventsearchOption,function(err,reuslt){
+//bdmap.eventsearch(eventsearchOption,function(err,reuslt){
 //    if(err){
 //        console.error('========',err);
 //    }
@@ -39,7 +39,7 @@ var bb = baidu.create({'ak':'W33OWk9gH40hXlGmUAek73qV'});
 //});
 
 var eventdetailOption = {'uid':'c14fc238f7fadd4ea5da390f'};
-bb.eventdetail(eventdetailOption,function(err,reuslt){
+bdmap.eventdetail(eventdetailOption,function(err,reuslt){
     if(err){
         console.error('========',err);
     }
