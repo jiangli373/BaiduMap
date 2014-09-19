@@ -1,5 +1,5 @@
 {
-    "name": "baidu-map",
+    "name": "baidumap",
     "version": "0.0.1",
     "description": "nodejs版百度地图服务sdk",
     "main": "index.js",

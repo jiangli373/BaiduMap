@@ -6,7 +6,7 @@
 
     npm install baidu-map
 
-    var baiduMap = require('baidu-map');
+    var baiduMap = require('baidumap');
     var bdmap = baiduMap.create({'ak':'xxxxxxxxxxxxxxxxxxxxxxxxx'});
 
 百度地图place相关用法:（请求字段按照百度官方文档）
