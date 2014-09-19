@@ -1,0 +1,17 @@
+{
+    "name": "baidu-map",
+    "version": "0.0.1",
+    "description": "nodejs版百度地图服务sdk",
+    "main": "index.js",
+    "dependencies":{
+        "request":"2.44.0",
+        "lodash":"2.4.1"
+    },
+    "keywords": [
+        "baidumap",
+        "node-baidumap"
+    ],
+    "engines": {
+        "node": ">= v0.10.26"
+    }
+}
