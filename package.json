@@ -1,6 +1,6 @@
 {
     "name": "baidumap",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "nodejs版百度地图服务sdk",
     "main": "index.js",
     "dependencies":{
