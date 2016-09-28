@@ -4,7 +4,7 @@
 
 使用:  
 #### 首先需要在百度上申请ak   [申请地址](http://lbsyun.baidu.com/apiconsole/key?application=key)
-    npm install baidu-map
+    npm install baidumap
 
     var baiduMap = require('baidumap');
     var bdmap = baiduMap.create({'ak':'xxxxxxxxxxxxxxxxxxxxxxxxx'});  
